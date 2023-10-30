@@ -117,3 +117,25 @@ html:hover .spider {
     transform: rotate(50deg);
     margin-left: -30px;
 }
+/* 1. Animatie */
+@keyframes look {
+    0%, 40%, 100% {
+        transform: translateX(0); 
+    }
+
+    45%, 95% {
+        transform: translateX(-110%);
+    }
+}
+
+
+/* 3. Animatie */
+@keyframes swing {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
